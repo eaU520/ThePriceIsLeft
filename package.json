@@ -6,10 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "jest":{
-    "preset": "jest-react-native"
+    "web": "expo start --web",
+    "test": "jest"
   },
   "dependencies": {
     "expo": "~48.0.18",
@@ -18,7 +16,13 @@
     "react-native": "0.71.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@testing-library/jest-native": "^5.4.2",
+    "@testing-library/react-native": "^12.1.2",
+    "jest-expo": "^49.0.0"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "private": true
 }
