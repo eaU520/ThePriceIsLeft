@@ -10,3 +10,6 @@ TODO: APIs for location and trips
 
 Run the code and get QR codes for install/testing in Expo Go
 npx expo start
+
+Run tests
+npx jest

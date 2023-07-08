@@ -5,8 +5,8 @@ import {Text} from 'react-native';
 const getPriceInformation = (price, name) => {
     return name + " is $" + price;
 };
-const Price = () => {
-   return <Text> The price of {getPriceInformation(10.00,"Candy")}</Text>; 
+const Item = () => {
+   return <Text> The price of {getPriceInformation(price,name)}</Text>; 
 }
 
-export default Price;
+export default Item;
